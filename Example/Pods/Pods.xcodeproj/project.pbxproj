@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		68C963CA8F427CC58297D9BC3DE8E270 /* Pods-RoundCornerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4FB399E75A3B0C152D3A46C1C6590F /* Pods-RoundCornerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		699FA306B108034AE4CD8694CBD73848 /* Pods-RoundCornerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69963A2D8833484BFF358854A09B6B7D /* Pods-RoundCornerView_Tests-dummy.m */; };
-		821BDF6D216CB3C2004EC7B9 /* UIView+Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BDF6C216CB3C2004EC7B9 /* UIView+Round.swift */; };
+		821BDF6F216CBA20004EC7B9 /* UIView+Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BDF6E216CBA20004EC7B9 /* UIView+Round.swift */; };
 		9295A5D37CB039095B14ED56D26BC5AE /* RoundCornerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F150A283AB7AF032A5C5B12EB36FA /* RoundCornerView-dummy.m */; };
 		A86AA5B27CD454E09B77C4EE41EB97CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A93523A407CB548833FF71D110770124 /* Pods-RoundCornerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 612991AD66D846B0E3370B1228F9BBB3 /* Pods-RoundCornerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,7 +59,7 @@
 		7849148A1F02ADCA4E47DF2645E848FC /* RoundCornerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RoundCornerView.modulemap; sourceTree = "<group>"; };
 		7A69EE775694B1B2D151E66E8945BBC8 /* Pods-RoundCornerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoundCornerView_Example-dummy.m"; sourceTree = "<group>"; };
 		80E23771B7BBEE8EA648333210486843 /* Pods_RoundCornerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoundCornerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		821BDF6C216CB3C2004EC7B9 /* UIView+Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Round.swift"; sourceTree = "<group>"; };
+		821BDF6E216CBA20004EC7B9 /* UIView+Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Round.swift"; path = "RoundCornerView/Classes/UIView+Round.swift"; sourceTree = "<group>"; };
 		8D23ACC5E5E71525B08CA8C609784050 /* Pods-RoundCornerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoundCornerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B6F150A283AB7AF032A5C5B12EB36FA /* RoundCornerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RoundCornerView-dummy.m"; sourceTree = "<group>"; };
@@ -221,7 +221,7 @@
 			children = (
 				7E99A97FAA9AD1A3985824B7EF96A269 /* Pod */,
 				95F259B49AFD1F7F5C5F2F026A9BF27A /* Support Files */,
-				821BDF6C216CB3C2004EC7B9 /* UIView+Round.swift */,
+				821BDF6E216CBA20004EC7B9 /* UIView+Round.swift */,
 			);
 			name = RoundCornerView;
 			path = ../..;
@@ -352,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7645BCF71EC2B86E8306C40686C9C8A /* Pods-RoundCornerView_Example-dummy.m in Sources */,
+				821BDF6F216CBA20004EC7B9 /* UIView+Round.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +369,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9295A5D37CB039095B14ED56D26BC5AE /* RoundCornerView-dummy.m in Sources */,
-				821BDF6D216CB3C2004EC7B9 /* UIView+Round.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

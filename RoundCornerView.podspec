@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RoundCornerView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RoundCornerView.'
+  s.summary          = 'Round the view that is being passed'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,18 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"TODO: Add long description of the pod here."
                        DESC
 
-  s.homepage         = 'https://github.com/waqar.ahmed/RoundCornerView'
+  s.homepage         = 'https://github.com/waqar1992/RoundedCornerView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'waqar.ahmed' => 'waqar.ahmed@pms.evampsaanga.com' }
-  s.source           = { :git => 'https://github.com/waqar.ahmed/RoundCornerView.git', :tag => s.version.to_s }
-  s.source_files = 'Pod/Classes/**/*'
+  s.source           = { :git => 'https://github.com/waqar1992/RoundedCornerView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'RoundCornerView/Classes/**/*'
   
@@ -38,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
