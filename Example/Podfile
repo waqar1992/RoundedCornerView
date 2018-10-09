@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RoundCornerView_Example' do
+  pod 'RoundCornerView', :path => '../'
+
+  target 'RoundCornerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

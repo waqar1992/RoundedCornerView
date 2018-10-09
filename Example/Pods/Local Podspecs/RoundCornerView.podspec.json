@@ -1,0 +1,22 @@
+{
+  "name": "RoundCornerView",
+  "version": "0.1.0",
+  "summary": "A short description of RoundCornerView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/waqar.ahmed/RoundCornerView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "waqar.ahmed": "waqar.ahmed@pms.evampsaanga.com"
+  },
+  "source": {
+    "git": "https://github.com/waqar.ahmed/RoundCornerView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RoundCornerView/Classes/**/*"
+}
